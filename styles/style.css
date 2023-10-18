@@ -166,7 +166,6 @@
 
 .events__image {
   max-width: 100%;
-  margin-top: 60px;
 }
 
 .person {
@@ -179,11 +178,11 @@
 
 .person_name_feynman {
   top: 30px;
-  left: 319px;
+  right: 319px;
 }
 
 .person_name_burbidge {
-  top: 160px;
+  top: 96px;
   right: 125px;
 }
 
@@ -198,7 +197,7 @@
 }
 
 .person_name_tarter {
-  top: 140px;
+  top: 79px;
   left: 159px;
 }
 
