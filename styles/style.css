@@ -93,10 +93,13 @@
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
+  margin-top: 60px;
+  border: 1px solid red;
 }
 
 .events__content {
   flex-basis: 580px;
+  border: 1px solid red;
 }
 
 .events__heading {
@@ -166,6 +169,7 @@
 
 .events__image {
   max-width: 100%;
+  margin-top: 60px;
 }
 
 .person {
@@ -182,7 +186,7 @@
 }
 
 .person_name_burbidge {
-  top: 96px;
+  top: 160px;
   right: 125px;
 }
 
@@ -197,7 +201,7 @@
 }
 
 .person_name_tarter {
-  top: 79px;
+  top: 140px;
   left: 159px;
 }
 
@@ -217,8 +221,11 @@
    width: 80px;
 }
 
+
 .person__caption {
   text-align: center;
   font-size: 14px;
   margin: 0;
+  border: 1px solid redd
+  ;
 }
