@@ -26,6 +26,7 @@
 .nav__logo {
   display: flex;
   align-items: start;
+  height: 60px;
 }
 
 .nav__links {
