@@ -229,6 +229,9 @@
 
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .staff__title {
@@ -236,6 +239,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -244,16 +248,29 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  color: #fff;
 }
 
-/* adicionar a regra CSS para sua nova classe aqui. Certifique-se de colocar antes de .card: os pais devem preceder seus filhos */
+.staff__card{
+ margin: 0 auto;
+ list-style-type: none;
+ max-width:760px;
+ margin-top:68px;
+ display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+padding-left: 0;
+row-gap: 40px;
+column-gap: 40px;
+}
 
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-
+  width:360px;
+  height:420px;
 }
 
 .card__content {
@@ -261,6 +278,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+
 }
 
 .card__title {
@@ -281,6 +299,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
