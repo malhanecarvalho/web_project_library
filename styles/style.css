@@ -353,9 +353,7 @@ column-gap: 40px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  border: 2px solid white;
-
-
+  border: 5px solid blueviolet;
 }
 
 .about__title {
@@ -363,9 +361,9 @@ column-gap: 40px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  z-index:1;
   border: 1px solid yellow;
-
+  max-width: 154px;
 }
 
 .about__paragraph{
@@ -377,7 +375,7 @@ column-gap: 40px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  border: solid red;
+  border:1px solid red;
 }
 
 .about__circle {
@@ -385,6 +383,8 @@ column-gap: 40px;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  border: 2px solid orangered;
+
 }
 
 .footer {
