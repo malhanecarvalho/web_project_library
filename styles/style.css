@@ -26,9 +26,8 @@
 .nav__logo {
   display: flex;
   align-items: start;
-  height: 80px;
-  width: 57px;
-  margin-top: 8px;
+  width: 80px;
+  height: 57px;
 }
 
 .nav__links {
@@ -318,13 +317,16 @@ column-gap: 40px;
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   margin: 100px 0 0;
-/* Adicione estilos */
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  column-gap: 40px;
 }
 
 .step {
-/* Adicione estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -351,6 +353,9 @@ column-gap: 40px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  border: 2px solid white;
+
+
 }
 
 .about__title {
@@ -359,6 +364,12 @@ column-gap: 40px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  border: 1px solid yellow;
+
+}
+
+.about__paragraph{
+  border: 1px solid white;
 }
 
 .about__content {
@@ -366,6 +377,7 @@ column-gap: 40px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  border: solid red;
 }
 
 .about__circle {
