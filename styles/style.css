@@ -21,13 +21,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav__logo {
   display: flex;
   align-items: start;
   width: 57px;
-  height: 80px;
 }
 
 .nav__links {
@@ -51,7 +51,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 701px;
+  max-width: 601px;
   margin-top: 128px;
   margin-bottom: 32px;
 }
